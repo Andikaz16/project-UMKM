@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Warung Maka</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Inter&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #f9f4ef;
+      color: #2c2c2c;
+    }
+    header {
+      background-color: #6b4c3b;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      font-family: 'Playfair Display', serif;
+    }
+    .hero {
+      padding: 50px 20px;
+      text-align: center;
+      background-image: url('https://source.unsplash.com/featured/?food');
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+      text-shadow: 1px 1px 3px #000;
+    }
+    .btn {
+      background-color: #d2691e;
+      color: white;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    .btn:hover {
+      background-color: #b35b28;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .menu {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .menu-item {
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      text-align: center;
+    }
+    .menu-item img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+    .menu-item h3 {
+      margin: 16px 0 8px;
+    }
+    footer {
+      background-color: #6b4c3b;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Warung Makan</h1>
+    <p>Masakan rumahan penuh rasa</p>
+  </header>
+
+  <div class="hero">
+    <h1>Selamat Datang!</h1>
+    <p>Nikmati menu spesial setiap hari</p>
+    <a href="#menu"><button class="btn">Lihat Menu</button></a>
+  </div>
+
+  <section id="menu">
+    <h2>Menu Spesial</h2>
+    <div class="menu">
+      <div class="menu-item">
+        <img src="https://source.unsplash.com/300x180/?nasi" alt="Nasi Goreng">
+        <h3>Nasi Goreng</h3>
+        <p>Rp 15.000</p>
+      </div>
+      <div class="menu-item">
+        <img src="https://source.unsplash.com/300x180/?ayam" alt="Ayam Bakar">
+        <h3>Ayam Bakar</h3>
+        <p>Rp 20.000</p>
+      </div>
+      <div class="menu-item">
+        <img src="https://source.unsplash.com/300x180/?soup" alt="Sop Iga">
+        <h3>Sop Iga</h3>
+        <p>Rp 25.000</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Tentang Kami</h2>
+    <p>Warung Classic adalah tempat makan dengan rasa rumahan yang hangat dan penuh cinta. Kami hadir sejak 2020 dan terus menyajikan makanan lezat untuk semua kalangan.</p>
+  </section>
+
+  <section>
+    <h2>Kontak</h2>
+    <p>📍 Jl. Makanan No.123, Kota Rasa</p>
+    <p>⏰ Buka: 10.00 - 22.00 WIB</p>
+    <p>📱 <a href="https://wa.me/6281234567890" class="btn">Pesan via WhatsApp</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Warung Classic. All rights reserved.</p>
+  </footer>
+</body>
+</html>
